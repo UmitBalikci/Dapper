@@ -25,7 +25,7 @@ namespace DapperIntro
         public CategoryUpdateForm(int categoryId)
         {
             InitializeComponent();
-
+            // constructor da atamasını yapıyoruz.
             _categoryId = categoryId;
         }
 
