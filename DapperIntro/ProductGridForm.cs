@@ -26,7 +26,8 @@ namespace DapperIntro
             {
                 const string sqlText = "SELECT * FROM Products";
                 var productList = connection.Query<Product>(sqlText);
-
+                
+                //grdProduct' ın DatasSource una listeyi gönderdik
                 grdProduct.DataSource = productList;
                 
 
